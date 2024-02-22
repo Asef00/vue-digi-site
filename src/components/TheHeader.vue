@@ -1,6 +1,6 @@
 <template>
   <header class="flex justify-between">
-    <img src="@/assets/logo.png" alt="logo" />
+    <img :src="logo" alt="logo" />
 
     <nav class="flex gap-1">
       <span class="icon-search"></span>
@@ -15,3 +15,7 @@
     </div>
   </header>
 </template>
+
+<script setup lang="ts">
+import logo from '../assets/Logo.png'
+</script>
