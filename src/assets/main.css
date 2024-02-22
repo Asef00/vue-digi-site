@@ -1,8 +1,6 @@
 @import './base.css';
-// TAILWIND
-@import "./assets/tailwind.css";
-// ICONS
-@import "./assets/style.css";
+@import "./tailwind.css";
+@import "./style.css";
 
 #app {
   max-width: 1280px;
